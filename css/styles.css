@@ -1,0 +1,136 @@
+/*  основний колір #212121 
+    додатковий колір #757575
+    колір оснвного фону #FFFFFF
+    колір фону #F5F4FA
+    акцент #2196F3
+*/
+:root {
+    --basic-text-color: #212121;
+    --basic-bcg-color: #fff;
+    --add-text-color: #757575;
+    --accent: #2196f3;
+    --additional-bcg-color: #f5f4fA;
+    --basic-logo-color: #000;
+    --hero-bcg-color: #2f303a;
+    --white-color: #fff;
+    --address-bcg-color: #2f303a;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.btn {
+    cursor: pointer;
+}
+.hidden-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+        
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+body {
+    background-color: var(--basic-bcg-color);
+    color: var(--basic-text-color);
+}
+
+/* Хедер */
+
+
+/* Лого */
+
+.logo {
+    color: var(--basic-logo-color);
+}
+
+.logo-color {
+    color: var(--accent);
+}
+
+/* Навігація в хедері */
+.nav-link {
+    color: var(--basic-logo-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent);
+}
+
+/* Контакти */
+.contact-item {
+    color: var(--basic-text-color);
+}
+
+.contact-item:hover,
+.contact-item:focus {
+    color: var(--accent);
+}
+
+/* Герой */
+.hero-section {
+    background-color: var(--hero-bcg-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+}
+
+.hero-btn {
+    color: var(--white-color);
+    background-color: var(--accent);
+    
+    
+}
+
+/* Особливості компанії */
+.features-text {
+    color: var(--add-text-color);
+}
+
+/* Наша команда */
+.teammate-pos{
+    color: var(--add-text-color);
+}
+
+/* Футер */
+.page-footer {
+    background-color: var(--address-bcg-color);
+}
+
+.footer-logo {
+    color: var(--white-color);
+}
+
+.address-item {
+    color: var(--white-color);
+}
+
+.footer-contact {
+    color: var(--add-text-color);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--accent);
+}
+
+
+/* Портфоліо */
+
+.filter-btn {
+
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--white-color);
+    background-color: var(--accent);
+}
