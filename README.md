@@ -1,1 +1,1 @@
-# goit-markup-hw-02
+Посилання до другого завдання https://olexiihubar.github.io/goit-markup-hw-02/
