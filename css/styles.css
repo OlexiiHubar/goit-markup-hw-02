@@ -61,10 +61,6 @@ body {
     color: var(--basic-logo-color);
 }
 
-.logo-color {
-    color: var(--accent);
-}
-
 /* Навігація в хедері */
 .nav-link,
 .contact-item  {
@@ -75,11 +71,18 @@ body {
     color: var(--basic-logo-color);
 }
 
+.logo-color,
+.current,
+.logo:hover,
 .nav-link:hover,
 .nav-link:focus,
 .contact-item:hover,
-.contact-item:focus {
+.contact-item:focus  {
     color: var(--accent);
+}
+
+.logo-color:hover {
+    color: var(--basic-logo-color);
 }
 
 /* Контакти */
@@ -175,6 +178,16 @@ body {
     line-height: 1.19;
     color: var(--white-color);
 }
+
+.logotype-color,
+.footer-logo:hover {
+    color: var(--accent);
+}
+
+.logotype-color:hover {
+    color: var(--white-color);
+}
+
 
 .address-list {
     font-style: normal;
